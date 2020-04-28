@@ -17,6 +17,22 @@ Verify the AWS CLI version using:
 ```
 aws --version
 ```
+Install the lastest AWS CLI:
+
+```
+sudo apt update -y
+sudo apt install python3-pip -y
+pip3 install awscli --upgrade --user
+which aws
+sudo mv ~/.local/bin/aws /usr/bin
+aws --version
+```
+
+### Install JQ
+
+```
+sudo apt install jq -y
+```
 
 ### Set a Default Compute Region and Zone
 
@@ -25,7 +41,7 @@ This tutorial assumes a default compute region and zone have been configured.
 Go ahead and set a default compute region:
 
 ```
-AWS_REGION=us-west-1
+AWS_REGION=us-east-1
 
 aws configure set default.region $AWS_REGION
 ```
