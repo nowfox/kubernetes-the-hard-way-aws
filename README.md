@@ -1,4 +1,5 @@
 # About
+This is a fork of [Kubernetes The Hard Way AWS](https://github.com/prabhatsharma/kubernetes-the-hard-way-aws) by prabhatsharma.
 
 This is a fork of awesome [Kubernetes The Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way) by Kelsey Hightower and is geared towards using it on AWS. Also thanks to [@slawekzachcial](https://github.com/slawekzachcial) for his [work](https://github.com/slawekzachcial/kubernetes-the-hard-way-aws) that made this easier. I have made some changes along the way:
 
