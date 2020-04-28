@@ -7,7 +7,7 @@ In this lab you will deploy the [DNS add-on](https://kubernetes.io/docs/concepts
 Deploy the `kube-dns` cluster add-on:
 
 ```
-kubectl create -f https://raw.githubusercontent.com/prabhatsharma/kubernetes-the-hard-way-aws/master/deployments/core-dns.yaml
+kubectl create -f https://storage.googleapis.com/kubernetes-the-hard-way/coredns.yaml
 ```
 
 > output
@@ -28,8 +28,9 @@ kubectl get pods -l k8s-app=kube-dns -n kube-system
 > output
 
 ```
-NAME                        READY     STATUS    RESTARTS   AGE
-kube-dns-3097350089-gq015   3/3       Running   0          20s
+NAME                       READY   STATUS    RESTARTS   AGE
+coredns-68567cdb47-4pnn4   1/1     Running   0          34s
+coredns-68567cdb47-fvc82   1/1     Running   0          34s
 ```
 
 ## Verification
